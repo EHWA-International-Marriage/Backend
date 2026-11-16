@@ -4,7 +4,7 @@
 
 ## 기술 스택
 
-Java 17 · Spring Boot 3 · Spring Security(JWT) · JPA + QueryDSL · MariaDB · Redis · Spring REST Docs
+Java 17 · Spring Boot 4 · Spring Security(JWT) · JPA + QueryDSL · MariaDB · Redis · Spring REST Docs
 
 ## SEO 전략
 
