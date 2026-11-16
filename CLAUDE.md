@@ -14,7 +14,7 @@ Git 규칙(브랜치·커밋·PR)은 `README.md`의 "작업 규칙"을, SEO 관�
 
 ## 기술 스택
 
-Java 17 · Spring Boot 3 · Gradle **Groovy**(`build.gradle`) · Spring Security(JWT, HttpOnly 쿠키, Stateless) · JPA + QueryDSL 5(jakarta) · **MariaDB** · Redis · S3(AWS SDK v2) · REST Docs · JUnit5 + Testcontainers(mariadb)
+Java 17 · Spring Boot 4 · Gradle **Groovy**(`build.gradle`) · Spring Security(JWT, HttpOnly 쿠키, Stateless) · JPA + QueryDSL 5(jakarta) · **MariaDB** · Redis · S3(AWS SDK v2) · REST Docs · JUnit5 + Testcontainers(mariadb)
 
 ## 명령어
 
