@@ -40,3 +40,5 @@ out/
 .mcp.json
 .local
 .DS_Store
+### Docker volume ###
+docker/mariadb/data/
