@@ -23,3 +23,23 @@ spring:
       host: ${REDIS_HOST}
       port: ${REDIS_PORT}
       password: ${REDIS_PASSWORD}
+      repositories:
+        enabled: false
+  autoconfigure:
+    # 기본 인메모리 사용자를 만들지 않는다 (생성된 비밀번호가 로그에 찍히는 것 방지)
+    exclude: org.springframework.boot.security.autoconfigure.UserDetailsServiceAutoConfiguration
+
+security:
+  jwt:
+    access-secret: ${JWT_ACCESS_SECRET}
+    refresh-secret: ${JWT_REFRESH_SECRET}
+    access-expiration: ${JWT_ACCESS_EXPIRATION}
+    refresh-expiration: ${JWT_REFRESH_EXPIRATION}
+  cors:
+    origins: ${CORS_ORIGINS}
+  cookie:
+    domain: ${COOKIE_DOMAIN:}
+    secure: true
+    same-site: Lax
+  encryption:
+    aes-key: ${AES_SECRET_KEY}
